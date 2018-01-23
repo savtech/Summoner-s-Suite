@@ -1,0 +1,54 @@
+#splashPane {
+	
+	-fx-background-color: linear-gradient(to bottom, #151515 0%,#303030 50%,#151515 100%);
+	
+}
+
+#statusLabel {
+	
+	-fx-text-fill: #d6d6d6;
+	-fx-padding: 25px 0 0 0;
+	-fx-font-size: 13px;
+	-fx-font-weight: bold;
+	
+}
+
+#connectionLabel {
+	
+	-fx-text-fill: a1a1a1;
+	
+}
+
+#helpLabel, #exitLabel {
+	
+	-fx-text-fill: #838383;
+	-fx-font-weight: bold;
+	
+}
+
+#exitLabel:hover, #helpLabel:hover {
+	
+	-fx-text-fill: #d6d6d6;
+	
+}
+
+#menuWrapper {
+	
+	-fx-spacing: 5px;
+	
+}
+
+#versionLabel {
+	
+	-fx-background-color: #151515;
+	-fx-text-fill: #838383;
+	-fx-font-size: 9px;
+	-fx-padding: 0 5px 3px 0;
+	
+}
+
+#logoVBox {
+	
+	-fx-spacing: 30px;
+	
+}

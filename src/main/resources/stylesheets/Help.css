@@ -1,0 +1,47 @@
+#pane {
+	
+	-fx-background-color: #d6d6d6;
+	
+}
+
+Label {
+	
+	-fx-text-fill: #151515;
+	
+}
+
+#exitLabel:hover {
+	
+	-fx-text-fill: #d6d6d6;
+	
+}
+
+#androidSteps, #appleSteps {
+	
+	-fx-background-color: #d6d6d6;
+	-fx-spacing: 10px;
+	-fx-padding: 10px 0 10px 0;
+	
+}
+
+HBox {
+	
+	-fx-background-color: white;
+	
+}
+
+#proceedLabel {
+	
+	-fx-background-color: linear-gradient(to bottom, #151515 0%,#303030 50%,#151515 100%);
+	-fx-text-fill: #d6d6d6;
+	-fx-font-weight: bold;
+	
+}
+
+#exitLabel {
+	
+	-fx-background-color: linear-gradient(to bottom, #151515 15%,#303030 85%,#151515 100%);
+	-fx-text-fill: #838383;
+	-fx-font-weight: bold;
+	
+}

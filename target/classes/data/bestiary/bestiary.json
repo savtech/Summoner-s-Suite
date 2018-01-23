@@ -1,0 +1,94 @@
+{
+	"monsters": [
+		{
+			"name": "Slime",
+			"baseStars": 1,
+			"elements": {
+				"water": {
+					"type": "Defense",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				},
+				"fire": {
+					"type": "Defense",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				},
+				"wind": {
+					"type": "Defense",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				}
+			}
+		},
+		{
+			"name": "Mushroom",
+			"baseStars": 1,
+			"elements": {
+				"water": {
+					"type": "Attack",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				},
+				"fire": {
+					"type": "Attack",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				},
+				"wind": {
+					"type": "Attack",
+					"stats": {
+						"hp": 0,
+						"attack": 0,
+						"defense": 0,
+						"speed": 0,
+						"critrate": 0,
+						"critdamage": 0,
+						"accuracy": 0,
+						"resistance": 0
+					}
+				}
+			}
+		}
+	]
+}

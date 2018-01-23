@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Pane prefHeight="527.0" prefWidth="747.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.savagesoftworks.summonerssuite.ui.controllers.SplashController">
+   <children>
+      <VBox id="splashPane" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="747.0">
+         <children>
+            <VBox id="logoVBox" alignment="CENTER" prefHeight="574.0" prefWidth="762.0">
+               <children>
+                  <ImageView fx:id="monsterLogoView" fitHeight="115.0" fitWidth="145.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fx:id="textLogoView" fitHeight="205.0" fitWidth="333.0" pickOnBounds="true" preserveRatio="true">
+                     <effect>
+                        <DropShadow height="255.0" radius="127.0" spread="0.8" width="255.0" />
+                     </effect>
+                  </ImageView>
+                  <VBox prefHeight="40.0" prefWidth="606.0">
+                     <children>
+                        <Label id="statusLabel" fx:id="statusLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="44.0" prefWidth="801.0" text="Initializing..." />
+                        <Label id="connectionLabel" fx:id="connectionLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="834.0" text="Awaiting client connection..." textAlignment="CENTER">
+                           <tooltip>
+                              <Tooltip text="Refer to 'Help' for a tutorial on connecting" />
+                           </tooltip></Label>
+                     </children>
+                  </VBox>
+                  <VBox id="menuWrapper" alignment="CENTER" prefHeight="53.0" prefWidth="541.0">
+                     <children>
+                        <Label id="helpLabel" fx:id="helpLabel" text="Help" />
+                        <Label fx:id="exitLabel" text="Exit" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <Label id="versionLabel" fx:id="versionLabel" alignment="CENTER_RIGHT" contentDisplay="RIGHT" prefHeight="17.0" prefWidth="869.0" text="v0.0.0" textAlignment="RIGHT" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

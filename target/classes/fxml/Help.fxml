@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<VBox id="pane" prefHeight="467.0" prefWidth="676.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.savagesoftworks.summonerssuite.ui.controllers.HelpController">
+   <children>
+      <Label id="proceedLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="63.0" prefWidth="863.0" text="Before proceeding: Fully exit the Summoners War application." textAlignment="CENTER" />
+      <Accordion prefHeight="372.0" prefWidth="462.0">
+        <panes>
+          <TitledPane animated="false" text="Android">
+               <content>
+                  <ScrollPane fitToWidth="true" prefHeight="260.0">
+                     <content>
+                        <VBox id="androidSteps" prefHeight="315.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewOne" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Open your Android device's settings." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="10.0" prefHeight="100.0" styleClass="odd">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewTwo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <VBox alignment="CENTER" prefHeight="150.0" prefWidth="516.0">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Make sure your Wi-Fi connection is set to on." textAlignment="CENTER" />
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="77.0" prefHeight="17.0" prefWidth="823.0" text="Tap on the Wi-Fi tab." textAlignment="CENTER" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="160.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewThree" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <VBox alignment="CENTER" prefHeight="150.0" prefWidth="516.0">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Find your Wi-Fi network." textAlignment="CENTER" />
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="77.0" prefHeight="17.0" prefWidth="823.0" text="Press and hold the Wi-Fi network." textAlignment="CENTER" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="310.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewFour" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Click &quot;Modify network config&quot;." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="310.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewFive" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <VBox alignment="CENTER" prefHeight="150.0" prefWidth="516.0">
+                                       <children>
+                                          <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Check &quot;Show advanced options&quot;." textAlignment="CENTER" />
+                                          <Label alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="77.0" prefHeight="17.0" prefWidth="823.0" text="Set &quot;Proxy&quot; to &quot;Manual&quot;." textAlignment="CENTER" />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="610.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewSix" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <VBox alignment="CENTER" prefHeight="150.0" prefWidth="516.0">
+                                       <children>
+                                          <Label fx:id="androidIpLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" textAlignment="CENTER" />
+                                          <Label fx:id="androidPortLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="77.0" prefHeight="17.0" prefWidth="823.0" textAlignment="CENTER" />
+                                          <Label text="Leave &quot;Bypass proxy for&quot; blank." />
+                                          <Label text="Leave &quot;Authenticate server&quot; unchecked." />
+                                          <Label text="Click &quot;Save&quot;." />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" layoutX="10.0" layoutY="460.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="androidImageViewSeven" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Restart your Summoner's War application." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </content>
+          </TitledPane>
+          <TitledPane animated="false" expanded="false" prefHeight="576.0" prefWidth="462.0" text="Apple">
+               <content>
+                  <ScrollPane fitToWidth="true" prefHeight="200.0" prefWidth="200.0">
+                     <content>
+                        <VBox id="appleSteps" prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <HBox alignment="CENTER" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="appleImageViewOne" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Open your Apple device's settings." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="appleImageViewTwo" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Click the Wi-Fi section." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER" layoutX="10.0" layoutY="160.0" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="appleImageViewThree" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Click your Wi-Fi network's Info icon." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="appleImageViewFour" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <VBox alignment="CENTER" prefHeight="150.0" prefWidth="516.0">
+                                       <children>
+                                          <Label text="Select &quot;Manual&quot;." />
+                                          <Label fx:id="appleIpLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" textAlignment="CENTER" />
+                                          <Label fx:id="applePortLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="10.0" layoutY="77.0" prefHeight="17.0" prefWidth="823.0" textAlignment="CENTER" />
+                                          <Label text="Leave &quot;Authentication&quot; off." />
+                                       </children>
+                                    </VBox>
+                                 </children>
+                              </HBox>
+                              <HBox alignment="CENTER_LEFT" prefHeight="100.0">
+                                 <children>
+                                    <ImageView fx:id="appleImageViewFive" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+                                    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="823.0" text="Restart your Summoner's War application." textAlignment="CENTER" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+               </content></TitledPane>
+        </panes>
+      </Accordion>
+      <Label fx:id="exitLabel" alignment="CENTER" contentDisplay="CENTER" prefHeight="39.0" prefWidth="788.0" text="Close" textAlignment="CENTER" />
+   </children>
+</VBox>

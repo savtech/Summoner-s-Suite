@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.savagesoftworks.summonerssuite.ui.controllers.TestController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Water" />
+            <ImageView fx:id="waterImageView" fitHeight="150.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="waterAImageView" fitHeight="150.0" fitWidth="113.0" layoutX="10.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Fire" />
+            <ImageView fx:id="fireImageView" fitHeight="150.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="fireAImageView" fitHeight="150.0" fitWidth="113.0" layoutX="10.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Wind" />
+            <ImageView fx:id="windImageView" fitHeight="150.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="windAImageView" fitHeight="150.0" fitWidth="113.0" layoutX="10.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Light" />
+            <ImageView fx:id="lightImageView" fitHeight="150.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="lightAImageView" fitHeight="150.0" fitWidth="113.0" layoutX="10.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label text="Dark" />
+            <ImageView fx:id="darkImageView" fitHeight="150.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="darkAImageView" fitHeight="150.0" fitWidth="113.0" layoutX="10.0" layoutY="27.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </VBox>
+   </children>
+</HBox>
